@@ -1,0 +1,23 @@
+@import 'variables';
+
+*, :before, :after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: $f-sans;
+  color: $c-dark;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: $c-accent;
+}
+
+code {
+  font-family: $f-monospace;
+}

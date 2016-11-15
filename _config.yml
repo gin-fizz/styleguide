@@ -1,0 +1,5 @@
+baseurl: /styleguide
+collections:
+  components:
+    output: true
+    permalink: /:path/
