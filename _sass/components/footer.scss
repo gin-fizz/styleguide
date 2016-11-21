@@ -1,0 +1,46 @@
+footer {
+
+	height: 5em;
+	display: flex;
+	align-items: center;
+	background-color: $c-accent;
+
+
+	img {
+		height: 2em;
+	}
+
+	ul li {
+		display: inline-block;
+	}
+
+	.socialmedia a {
+		width: 4rem;
+		height: 4rem;
+		display: block;
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		background-image: url(../img/socialiconsprite.png);
+		background-size: 1100% 300%; /* = 11 kolommen en 3 rijen */
+	}
+	
+	.facebook {
+		background-position: 0 0; /* positie (0,0) * 4  */
+	}
+
+	.twitter {
+		background-position: -32rem 0; /* positie (8,0) * 4  */
+	}
+
+	.facebook:hover {
+		background-position: 0 -8rem; /* positie (0,2) * 4  */
+		border-radius: 1rem;
+	}
+
+	.twitter:hover {
+		background-position: -32rem -8rem; /* positie (8,2) * 4  */
+		border-radius: 1rem;
+	}
+
+}
