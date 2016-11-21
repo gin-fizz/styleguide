@@ -1,0 +1,13 @@
+button {
+  background-color: $c-accent;
+  border: $s-mini solid $c-accent-dark;
+  border-radius: $s-mini;
+  font: inherit;
+  color: $c-accent-dark;
+  padding: $s-mini $s-medium;
+  transition: background-color .2s;
+
+  &:active {
+    background-color: $c-light;
+  }
+}

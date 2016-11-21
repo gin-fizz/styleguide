@@ -4,10 +4,14 @@ $f-monospace: Menlo, monospace;
 
 
 // colours
+$c-light: #FAFBFA;
 $c-accent: #FD6C6C;
+$c-accent-dark: darken($c-accent, 50%);
 $c-dark: #232323;
 
 // spacing
+$s-hair: 1px;
+$s-mini: .2em;
 $s-small: .5em;
 $s-medium: 1em;
 $s-large: 2em;

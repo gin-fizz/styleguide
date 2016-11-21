@@ -16,6 +16,11 @@ body {
 
 a {
   color: $c-accent;
+
+  &.cta {
+    @extend button;
+    text-decoration: none;
+  }
 }
 
 code {

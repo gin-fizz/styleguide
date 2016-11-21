@@ -20,21 +20,17 @@ This should always be visible, but the `.user` div shouldn't contain all three o
 
 ## Rendered
 
-<div class="example">
-  <header>
-    <a href="/"><img src="{{site.baseurl}}/src/img/logo.svg" alt="home"></a>
-    <div class="user">
-      <a href="/me"><img src="{{site.baseurl}}/src/img/user.svg" alt="me"></a>
-    </div>
-  </header>
-</div>
+<header>
+  <a href="/"><img src="{{site.baseurl}}/src/img/logo.svg" alt="home"></a>
+  <div class="user">
+    <a href="/me"><img src="{{site.baseurl}}/src/img/user.svg" alt="me"></a>
+  </div>
+</header>
 
-<div class="example">
-  <header>
-    <a href="/"><img src="{{site.baseurl}}/src/img/logo.svg" alt="home"></a>
-    <div class="user">
-      <a href="/login" class="cta">login</a>
-      <a href="/register" class="cta">register</a>
-    </div>
-  </header>
-</div>
+<header>
+  <a href="/"><img src="{{site.baseurl}}/src/img/logo.svg" alt="home"></a>
+  <div class="user">
+    <a href="/login" class="cta">login</a>
+    <a href="/register" class="cta">register</a>
+  </div>
+</header>

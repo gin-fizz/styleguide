@@ -1,0 +1,23 @@
+.poll {
+  &--option {
+    input {
+      font: inherit;
+    }
+  }
+
+  &--vote {
+
+  }
+
+  &--title {
+    &[contenteditable] {
+      border: $s-hair solid currentColor;
+      padding: $s-mini;
+      border-radius: $s-mini;
+    }
+  }
+
+  &--advanced {
+    display: flex;
+  }
+}

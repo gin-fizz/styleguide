@@ -1,0 +1,18 @@
+---
+title: Poll title
+layout: component
+---
+
+This is the title of a poll, used both when editing a poll, as when voting
+
+```html
+<h2 class="poll--title">This is the title of the poll</h2>
+<h2 class="poll--title" contenteditable="true">This is the title of the poll</h2>
+```
+
+Should always be in `.poll`
+
+## Rendered
+
+<h2 class="poll--title">This is the title of the poll</h2>
+<h2 class="poll--title" contenteditable="true">This is the title of the poll</h2>
