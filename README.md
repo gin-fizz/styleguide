@@ -2,7 +2,9 @@
 
 This is the living styleguide for pollistics.
 
-[gin-fizz.github.io/styleguide](https://gin-fizz.github.io/styleguide)
+[gin-fizz.github.io/styleguide](https://gin-fizz.github.io/styleguide).
+
+This is running in `jekyll`. To serve it locally, install that first, and then run `jekyll serve`.
 
 ## Adding new components
 
@@ -14,4 +16,6 @@ Style is defined in `_sass/components/name.scss`.
 
 ## Using the components
 
-[TODO] how to link src/main.css into another site (maybe via npm???)
+```html
+<link rel="stylesheet" href="https://gin-fizz.github.io/styleguide/src/main.css">
+```
