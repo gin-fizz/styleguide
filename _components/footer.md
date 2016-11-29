@@ -1,5 +1,5 @@
 ---
-title: Footer
+title: (Footer)
 layout: component
 ---
 
@@ -35,3 +35,7 @@ The footer should always be visible and should look like this.
 		</ul>
 	</nav>
 </footer>
+
+<style>
+	{{ '@import "variables","components/footer";' | scssify }}
+</style>

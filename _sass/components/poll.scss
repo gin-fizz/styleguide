@@ -1,5 +1,18 @@
 .poll {
+  max-width: 30em;
+  margin: 0 auto;
+  padding: 1em;
+
   &--option {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0;
+
+    label {
+      font-size: .8em;
+      margin-bottom: .5em;
+    }
+
     input {
       font: inherit;
     }
@@ -10,11 +23,13 @@
   }
 
   &--title {
-    &[contenteditable] {
-      border: $s-hair solid currentColor;
-      padding: $s-mini;
-      border-radius: $s-mini;
-    }
+    font-size: 1.75em;
+
+    // &[contenteditable] {
+    //   border: $s-hair solid currentColor;
+    //   padding: $s-mini;
+    //   border-radius: $s-mini;
+    // }
   }
 
   &--advanced {
