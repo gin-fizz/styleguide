@@ -1,4 +1,4 @@
-button {
+button, input[type=submit] {
   background-color: $c-accent;
   border: $s-mini solid $c-accent-dark;
   border-radius: $s-mini;
