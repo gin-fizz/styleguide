@@ -19,6 +19,7 @@ a {
 
   &.cta {
     @extend button;
+    display: inline-block;
     text-decoration: none;
   }
 }
