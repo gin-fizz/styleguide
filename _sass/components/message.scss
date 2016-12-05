@@ -1,0 +1,26 @@
+.error {
+  font-size: .8em;
+  margin-top: $s-small;
+  color: $c-accent;
+}
+
+.message {
+  padding: $s-medium;
+  margin: $s-small;
+  border: $s-hair solid transparent;
+  border-radius: $s-small;
+
+  &.error {
+    font-size: inherit;
+    margin: $s-small;
+    color: $c-accent-dark;
+    background-color: $c-accent;
+    border-color: $c-accent-dark;
+  }
+
+  &.success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+  }
+}
