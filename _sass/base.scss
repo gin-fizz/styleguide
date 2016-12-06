@@ -7,7 +7,7 @@
 html {
   box-sizing: border-box;
   font-family: $f-sans;
-  color: $c-dark;
+  color: $green;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: $c-accent;
+  color: $green;
 
   &.cta {
     @extend button;
@@ -32,4 +32,6 @@ main {
   max-width: 60em;
   margin: 0 auto;
   padding: 0 1em;
+  background-color: $blue;
+  color: $green;
 }
