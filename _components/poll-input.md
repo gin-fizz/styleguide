@@ -8,7 +8,7 @@ This is the input for changing the value of an option of a poll
 ```html
 <div class="poll--option">
   <label for="optionXX">Enter an option</label>
-  <input type="text" name="optionXX">
+  <input type="text" placeholder="Enter an option" name="optionXX">
 </div>
 ```
 
@@ -18,5 +18,5 @@ This is part of [poll](poll) which is being created.
 
 <div class="poll--option">
   <label for="optionXX">Enter an option</label>
-  <input type="text" name="optionXX">
+  <input type="text" placeholder="Enter an option" name="optionXX">
 </div>
