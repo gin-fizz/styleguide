@@ -11,10 +11,13 @@
     label {
       font-size: .8em;
       margin-bottom: .5em;
+      display: none;
     }
 
     input {
       font: inherit;
+      border-radius: $s-small;
+      padding-left: $s-small;
     }
   }
 
