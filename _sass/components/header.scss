@@ -3,8 +3,13 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1em;
+  background-color: $green;
+
+  button {
+  	border: $s-mini solid $blue;
+  }
 
   img {
-    height: 2em;
+    height: 3em;
   }
 }
