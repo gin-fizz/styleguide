@@ -1,7 +1,7 @@
 .error {
   font-size: .8em;
   margin-top: $s-small;
-  color: $red-dark;
+  color: $c-error-dark;
 }
 
 .message {
@@ -13,14 +13,14 @@
   &.error {
     font-size: inherit;
     margin: $s-small;
-    color: $red-dark;
-    background-color: $red;
-    border-color: $red-dark;
+    color: $c-error-dark;
+    background-color: $c-error;
+    border-color: $c-error-dark;
   }
 
   &.success {
     color: $green-dark;
-    background-color: $green-light;
-    border-color: $green-dark;
+    background-color: $c-accent-light;
+    border-color: $c-accent-dark;
   }
 }

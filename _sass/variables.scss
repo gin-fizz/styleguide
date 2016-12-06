@@ -2,20 +2,13 @@
 $f-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 $f-monospace: Menlo, monospace;
 
-
-// colours
-$c-light: #FAFBFA;
-$c-accent: #FD6C6C;
-$c-accent-dark: darken($c-accent, 50%);
-$c-dark: #232323;
-
 // colours second version
-$blue: #07092E;
-$green: #4AA07A;
-$green-dark: #367559;
-$green-light: #8BC2AA;
-$red: #B94F4F;
-$red-dark: #5C2828;
+$c-background: #07092E;
+$c-accent: #4AA07A;
+$c-accent-dark: #367559;
+$c-accent-light: #8BC2AA;
+$c-error: #B94F4F;
+$c-error-dark: #5C2828;
 
 // spacing
 $s-hair: 1px;

@@ -3,10 +3,10 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1em;
-  background-color: $green;
+  background-color: $c-accent;
 
   button {
-  	border: $s-mini solid $blue;
+  	border: $s-mini solid $c-background;
   }
 
   img {
