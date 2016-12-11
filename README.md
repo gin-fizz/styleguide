@@ -2,9 +2,20 @@
 
 This is the living styleguide for pollistics.
 
-[gin-fizz.github.io/styleguide](https://gin-fizz.github.io/styleguide).
+[style.pollistics.com](https://style.pollistics.com/).
 
 This is running in `jekyll`. To serve it locally, install that first, and then run `jekyll serve`.
+
+<details>
+<summary>more</summary>
+It's also possible to run it locally via `bundler`, then you run: 
+
+```sh
+$ bundle install
+$ bundle exec jekyll serve.
+```
+
+</details>
 
 ## Adding new components
 
@@ -17,5 +28,5 @@ Style is defined in `_sass/components/name.scss`.
 ## Using the components
 
 ```html
-<link rel="stylesheet" href="https://gin-fizz.github.io/styleguide/src/main.css">
+<link rel="stylesheet" href="https://style.pollistics.com/src/main.css">
 ```
