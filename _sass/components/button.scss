@@ -1,13 +1,13 @@
 button, input[type=submit] {
   background-color: $c-accent;
-  border: $s-mini solid $c-accent-dark;
-  border-radius: $s-mini;
+  border-radius: $s-small;
+  border: none;
   font: inherit;
-  color: $c-accent-dark;
-  padding: $s-mini $s-medium;
+  color: $c-header;
+  padding: $s-small $s-medium;
   transition: background-color .2s;
 
   &:active {
-    background-color: $c-light;
+    background-color: $c-accent-light;
   }
 }

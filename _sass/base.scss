@@ -7,11 +7,12 @@
 html {
   box-sizing: border-box;
   font-family: $f-sans;
-  color: $c-dark;
+  color: $c-accent;
 }
 
 body {
   margin: 0;
+  background-color: $c-background;
 }
 
 a {
@@ -32,4 +33,6 @@ main {
   max-width: 60em;
   margin: 0 auto;
   padding: 0 1em;
+  background-color: $c-background;
+  color: $c-accent;
 }

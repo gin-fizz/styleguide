@@ -10,8 +10,8 @@ This is the header of pollistics
   <a href="/"><img src="/src/img/logo.svg" alt="home"></a>
   <div class="user">
     <a href="/me"><img src="/src/img/user.svg" alt="me"></a>
-    <a href="/login" class="cta">login</a>
-    <a href="/register" class="cta">register</a>
+    <a href="/login" class="cta">Login</a>
+    <a href="/register" class="cta">Register</a>
   </div>
 </header>
 ```
@@ -27,10 +27,11 @@ This should always be visible, but the `.user` div shouldn't contain all three o
   </div>
 </header>
 
+
 <header>
   <a href="/"><img src="{{site.baseurl}}/src/img/logo.svg" alt="home"></a>
   <div class="user">
-    <a href="/login" class="cta">login</a>
-    <a href="/register" class="cta">register</a>
+    <a href="/login" class="cta">Login</a>
+    <a href="/register" class="cta">Register</a>
   </div>
 </header>
