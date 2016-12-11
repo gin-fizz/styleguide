@@ -1,6 +1,7 @@
 button, input[type=submit] {
   background-color: $c-accent;
   border-radius: $s-small;
+  border: none;
   font: inherit;
   color: $c-header;
   padding: $s-mini $s-medium;
