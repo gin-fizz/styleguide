@@ -32,3 +32,7 @@ Style is defined in `_sass/components/name.scss`.
 ```html
 <link rel="stylesheet" href="https://style.pollistics.com/src/main.css">
 ```
+
+## Behind the scenes
+
+Jekyll is being deployed to Netlify on every commit to `master`, as well as on every pull request a `staging` deploy is being made. You can see that one on "view checks", "view detail" on a pull request.
