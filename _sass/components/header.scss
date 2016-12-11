@@ -3,13 +3,16 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1em;
-  background-color: $c-accent;
-
-  button {
-  	border: $s-mini solid $c-background;
-  }
+  background-color: $c-header;
 
   img {
     height: 3em;
+  }
+
+  button {
+    background-color: $c-header;
+    border: $s-hair solid $c-accent;
+    border-radius: $s-small;
+    color: $c-accent;
   }
 }

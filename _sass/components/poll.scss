@@ -15,8 +15,9 @@
 
     input {
       font: inherit;
-      border-radius: $s-small;
+      border-radius: $s-mini;
       padding-left: $s-small;
+      border: $s-hair solid $c-border-input;
     }
   }
 
