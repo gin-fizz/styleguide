@@ -2,3 +2,4 @@
 _site
 ca.crt
 ca.key
+Gemfile.lock
