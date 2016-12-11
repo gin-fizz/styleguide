@@ -1,16 +1,18 @@
-.poll-by-user {
+.cta-list {
+	padding: 0;
+	list-style: none;
 
-	&:nth-child(odd) {
-		background-color: $c-header;
-	}
+	li {
+		margin: $s-small 0;
 
-	&:last-of-type {
-		margin-bottom: $s-large;
+		&:nth-child(odd) {
+			background-color: $c-header;
+		}
 	}
 
 	a {
 		text-decoration: none;
-		display:inline-block;
+		display: inline-block;
 		padding: $s-medium;
 		border-radius: $s-small;
 		height: 100%;
