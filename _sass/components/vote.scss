@@ -1,0 +1,30 @@
+.vote {
+  max-width: 30em;
+  margin: 0 auto;
+  padding: 1em;
+
+  &--options {
+    display: flex;
+    flex-direction: column;
+    margin: $s-small 0;
+
+    label {
+      display:inline-block;
+      margin-bottom: $s-medium;
+    }
+
+    input {
+      margin-right: $s-medium;
+    }
+
+    button {
+      margin-top: $s-medium;
+    }
+  }
+
+  &--delete {
+    display: flex;
+    flex-direction: column;
+    margin: $s-small 0;
+  }
+}

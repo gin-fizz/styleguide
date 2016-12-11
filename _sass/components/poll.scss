@@ -21,60 +21,6 @@
     }
   }
 
-  &--vote {
-    display: flex;
-    flex-direction: column;
-    margin: $s-small 0;
-
-    label {
-      display:inline-block;
-      margin-bottom: $s-medium;
-    }
-
-    input {
-      margin-right: $s-medium;
-    }
-
-    button {
-      margin-top: $s-medium;
-    }
-  }
-
-  &--delete {
-    display: flex;
-    flex-direction: column;
-    margin: $s-small 0;
-  }
-
-  &--social {
-    display: flex;
-    flex-direction: row;
-    margin: $s-small 0;
-
-    a {
-      width: 49%;
-      text-align: center; 
-
-      &:nth-child(odd) {
-        margin-right: 2%;
-      }
-    }
-  }
-
-  &--link {
-    margin: $s-small 0;
-    float: right;
-
-    input {
-      padding: $s-small;
-      font-size: 1em;
-    }
-
-    button {
-      margin-left: $s-small;
-    }
-  }
-
   &--title {
     font-size: 1.75em;
 
