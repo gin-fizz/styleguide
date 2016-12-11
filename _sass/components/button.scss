@@ -4,7 +4,7 @@ button, input[type=submit] {
   border: none;
   font: inherit;
   color: $c-header;
-  padding: $s-mini $s-medium;
+  padding: $s-small $s-medium;
   transition: background-color .2s;
 
   &:active {

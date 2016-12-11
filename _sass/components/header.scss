@@ -4,6 +4,8 @@ header {
   align-items: center;
   padding: 1em;
   background-color: $c-header;
+  margin-bottom: 1em;
+  box-shadow: 0em -1em 1em 1em #b1b1b1;
 
   img {
     height: 3em;
@@ -13,6 +15,7 @@ header {
     background-color: $c-header;
     border: $s-hair solid $c-accent;
     border-radius: $s-small;
+    padding: $s-mini $s-medium;
     color: $c-accent;
   }
 }
