@@ -2,6 +2,11 @@
 layout: default
 title: Styleguide
 ---
+<style>
+  h1 img {
+    width: 6em;
+  }
+</style>
 
 # ![logo of pollistics]({{site.baseurl}}/src/img/logo.svg) styleguide
 
