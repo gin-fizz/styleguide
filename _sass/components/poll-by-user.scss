@@ -1,0 +1,24 @@
+.poll-by-user {
+
+	&:nth-child(odd) {
+		background-color: $c-header;
+	}
+
+	&:last-of-type {
+		margin-bottom: $s-large;
+	}
+
+	a {
+		text-decoration: none;
+		display:inline-block;
+		padding: $s-medium;
+		border-radius: $s-small;
+		height: 100%;
+		width: 100%;
+
+		&:hover {
+			background-color: $c-accent;
+			color: $c-header;
+		}
+	}
+}
