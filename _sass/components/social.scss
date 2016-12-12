@@ -1,28 +1,30 @@
 .social {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: $s-small 0;
 
-  a {
-    width: 49%;
-    text-align: center; 
+  &--item {
+    display: flex;
+    flex-wrap: wrap;
 
-    &:nth-child(odd) {
-      margin-right: 2%;
+    * {
+      margin: $s-mini;
+      text-align: center;
+      flex-grow: 1;
     }
   }
-  
-  &--link {
-    margin: $s-small 0;
-    float: right;
 
-    input {
-      padding: $s-small;
-      font-size: 1em;
-    }
+  input {
+    font: inherit;
+    padding: $s-small;
+    border: $s-hair solid currentColor;
+    border-radius: $s-small;
+    font-size: inherit;
+    color: inherit;
+    background-color: inherit;
+  }
 
-    button {
-      margin-left: $s-small;
-    }
+  &--copy {
+    flex-grow: 0;
   }
 }
