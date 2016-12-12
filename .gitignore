@@ -1,2 +1,4 @@
 .sass-cache
 _site
+ca.crt
+ca.key
