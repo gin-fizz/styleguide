@@ -1,38 +1,38 @@
 @import 'variables';
 
 *, :before, :after {
-  box-sizing: inherit;
+	box-sizing: inherit;
 }
 
 html {
-  box-sizing: border-box;
-  font-family: $f-sans;
-  color: $c-accent;
+	box-sizing: border-box;
+	font-family: $f-sans;
+	color: $c-accent;
 }
 
 body {
-  margin: 0;
-  background-color: $c-background;
+	margin: 0;
+	background-color: $c-background;
 }
 
 a {
-  color: $c-accent;
+	color: $c-accent;
 
-  &.cta {
-    @extend button;
-    display: inline-block;
-    text-decoration: none;
-  }
+	&.cta {
+		@extend button;
+		display: inline-block;
+		text-decoration: none;
+	}
 }
 
 code {
-  font-family: $f-monospace;
+	font-family: $f-monospace;
 }
 
 main {
-  max-width: 60em;
-  margin: 0 auto;
-  padding: 0 1em;
-  background-color: $c-background;
-  color: $c-accent;
+	max-width: 60em;
+	margin: 0 auto;
+	padding: 0 1em;
+	background-color: $c-background;
+	color: $c-accent;
 }

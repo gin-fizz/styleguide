@@ -1,37 +1,37 @@
 .poll {
-  max-width: 30em;
-  margin: 0 auto;
-  padding: 1em;
+	max-width: 30em;
+	margin: 0 auto;
+	padding: 1em;
 
-  &--option {
-    display: flex;
-    flex-direction: column;
-    margin: 1em 0;
+	&--option {
+		display: flex;
+		flex-direction: column;
+		margin: 1em 0;
 
-    label {
-      font-size: .8em;
-      margin-bottom: .5em;
-    }
+		label {
+			font-size: .8em;
+			margin-bottom: .5em;
+		}
 
-    input:not([type=submit]) {
-      font: inherit;
-      border-radius: $s-mini;
-      padding-left: $s-small;
-      border: $s-hair solid $c-border-input;
-    }
-  }
+		input:not([type=submit]) {
+			font: inherit;
+			border-radius: $s-mini;
+			padding-left: $s-small;
+			border: $s-hair solid $c-border-input;
+		}
+	}
 
-  &--title {
-    font-size: 1.75em;
+	&--title {
+		font-size: 1.75em;
 
-    // &[contenteditable] {
-    //   border: $s-hair solid currentColor;
-    //   padding: $s-mini;
-    //   border-radius: $s-hair;
-    // }
-  }
+		// &[contenteditable] {
+		//   border: $s-hair solid currentColor;
+		//   padding: $s-mini;
+		//   border-radius: $s-hair;
+		// }
+	}
 
-  &--advanced {
-    display: flex;
-  }
+	&--advanced {
+		display: flex;
+	}
 }
