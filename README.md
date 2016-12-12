@@ -1,10 +1,23 @@
-# Styleguide
+# [Styleguide](https://style.pollistics.com/)
 
 This is the living styleguide for pollistics.
 
-[gin-fizz.github.io/styleguide](https://gin-fizz.github.io/styleguide).
+[style.pollistics.com](https://style.pollistics.com/).
 
-This is running in `jekyll`. To serve it locally, install that first, and then run `jekyll serve`.
+The styleguide is build with `jekyll`. To serve it locally, install that first, and then run `jekyll serve`.
+
+You can then find your local development at <http://localhost:4000>
+
+<details>
+<summary>more</summary>
+It's also possible to run it locally via `bundler`, then you run:
+
+```sh
+$ bundle install
+$ bundle exec jekyll serve.
+```
+
+</details>
 
 ## Adding new components
 
@@ -17,5 +30,9 @@ Style is defined in `_sass/components/name.scss`.
 ## Using the components
 
 ```html
-<link rel="stylesheet" href="https://gin-fizz.github.io/styleguide/src/main.css">
+<link rel="stylesheet" href="https://style.pollistics.com/src/main.css">
 ```
+
+## Behind the scenes
+
+Jekyll is being deployed to Netlify on every commit to `master`, as well as on every pull request a `staging` deploy is being made. You can see that one on "view checks", "view detail" on a pull request.
