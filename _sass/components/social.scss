@@ -1,0 +1,28 @@
+.social {
+  display: flex;
+  flex-direction: row;
+  margin: $s-small 0;
+
+  a {
+    width: 49%;
+    text-align: center; 
+
+    &:nth-child(odd) {
+      margin-right: 2%;
+    }
+  }
+  
+  &--link {
+    margin: $s-small 0;
+    float: right;
+
+    input {
+      padding: $s-small;
+      font-size: 1em;
+    }
+
+    button {
+      margin-left: $s-small;
+    }
+  }
+}
