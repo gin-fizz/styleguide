@@ -9,13 +9,28 @@
     margin: $s-small 0;
 
     label {
-      display:inline-block;
-      margin-bottom: $s-medium;
+      background-color: $c-accent-light;
     }
 
-    input {
-      margin-right: $s-medium;
+    &--container {
+    	position: relative;
+		  width: 20px;
+		  height: 20px;
+		  margin-right: 0.5em;
     }
+
+    input, &--radio {
+    	position: absolute;
+		  width: 100%;
+		  height: 100%;
+		  left: 0;
+    }
+
+    &--radio {
+
+    }
+
+    
 
     button {
       margin-top: $s-medium;
