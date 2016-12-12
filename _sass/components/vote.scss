@@ -1,36 +1,68 @@
 .vote {
   max-width: 30em;
   margin: 0 auto;
-  padding: 1em;
+  padding: $s-medium;
 
   &--options {
-    display: flex;
-    flex-direction: column;
-    margin: $s-small 0;
+  	display: flex;
+  	flex-direction: column;
 
-    label {
-      background-color: $c-accent-light;
-    }
-
-    &--container {
-    	position: relative;
-		  width: 20px;
-		  height: 20px;
-		  margin-right: 0.5em;
-    }
-
-    input, &--radio {
-    	position: absolute;
-		  width: 100%;
-		  height: 100%;
+  	input[type=radio] {
+		  position: absolute;
 		  left: 0;
-    }
+		  top: 0;
+		  margin: 0;
+		  padding: 0;
+		  opacity: 0;
+		}
 
-    &--radio {
+		label {
+			padding-left: $s-medium-large;
+		  -webkit-user-select: none;
+		  -moz-user-select: none;
+		  -ms-user-select: none;
+		  user-select: none;
+		}
 
-    }
+		label::before, label::after {
+			content: '';
+		  display: block;
+		  width: $s-medium;
+		  height: $s-medium;
+		  position: absolute;
+		  top: 50%;
+		  -webkit-transform: translateY(-50%);
+		  -moz-transform: translateY(-50%);
+		  -ms-transform: translateY(-50%);
+		  -o-transform: translateY(-50%);
+		  transform: translateY(-50%);
+		}
 
-    
+		label::before {
+			left: 0;
+		  border: $s-hair solid $c-border-input-light;
+		  box-shadow: inset $s-hair $s-hair rgba(0, 0, 0, 0.03);
+		  border-radius: 50%;
+		}
+
+		label::after {
+			left: 3px;
+		  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9487/icon-check.svg") no-repeat center center;
+		  display: none;
+		}
+
+		input[type=radio]:checked + label::after {
+		  display: block;
+		}
+
+		input[type=text], &--container {
+		  margin: $s-medium;
+		}
+
+		&--container {
+		  position: relative;
+		  display: inline-block;
+		}
 
     button {
       margin-top: $s-medium;
