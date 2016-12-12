@@ -7,23 +7,31 @@ Once a poll is created, you can vote on it like this:
 
 ```html
 <div class="vote--options">
-  <label for="optionXX">
-    <input type="radio" name="option" id="optionXX" value="optionXX">
-    <div class="vote--options--radio"></div>
+
+  <label for="option1">
+    <div class="vote--options--container">
+      <input type="radio" name="option" id="option1" value="option1">
+      <div class="vote--options--radio"></div> 
+    </div>
     Groen
   </label>
-  <label for="optionXX">
-    <input type="radio" name="option" id="optionXX" value="optionXX">
-    Oranje
-  </label>
-  <label for="optionXX">
-    <input type="radio" name="option" id="optionXX" value="optionXX">
+
+  <label for="option2">
+    <div class="vote--options--container">
+      <input type="radio" name="option" id="option2" value="option2">
+      <div class="vote--options--radio"></div> 
+    </div>
     Blauw
   </label>
-  <label for="optionXX">
-    <input type="radio" name="option" id="optionXX" value="optionXX">
+
+  <label for="option3">
+    <div class="vote--options--container">
+      <input type="radio" name="option" id="option3" value="option3">
+      <div class="vote--options--radio"></div> 
+    </div>
     Rood
   </label>
+
 </div>
 ```
 
@@ -32,26 +40,29 @@ Once a poll is created, you can vote on it like this:
 
 <div class="vote--options">
   
-  <label for="optionXX">
+  <label for="option1">
     <div class="vote--options--container">
-      <input type="radio" name="option" id="optionXX" value="optionXX">
+      <input type="radio" name="option" id="option1" value="option1">
       <div class="vote--options--radio"></div> 
     </div>
     Groen
   </label>
-  
 
-  <label for="optionXX">
-    <input type="radio" name="option" id="optionXX" value="optionXX">
-    Oranje
-  </label>
-  <label for="optionXX">
-    <input type="radio" name="option" id="optionXX" value="optionXX">
+  <label for="option2">
+    <div class="vote--options--container">
+      <input type="radio" name="option" id="option2" value="option2">
+      <div class="vote--options--radio"></div> 
+    </div>
     Blauw
   </label>
-  <label for="optionXX">
-    <input type="radio" name="option" id="optionXX" value="optionXX">
+
+  <label for="option3">
+    <div class="vote--options--container">
+      <input type="radio" name="option" id="option3" value="option3">
+      <div class="vote--options--radio"></div> 
+    </div>
     Rood
   </label>
+  
 </div>
 
