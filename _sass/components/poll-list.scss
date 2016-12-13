@@ -1,0 +1,32 @@
+.poll-list {
+	padding: 0;
+	list-style: none;
+
+	li {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		padding: $s-small;
+		border-radius: $s-small;
+		height: 100%;
+		width: 100%;
+		+ li {
+			margin-top: $s-small;
+		}
+
+		div > * {
+			margin: $s-small 0;
+		}
+
+		form {
+			display: inline-block;
+		}
+	}	
+}
+
+.list-title {
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+}
