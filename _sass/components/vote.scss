@@ -1,30 +1,77 @@
 .vote {
-  max-width: 30em;
-  margin: 0 auto;
-  padding: 1em;
+	max-width: 30em;
+	margin: 0 auto;
+	padding: $s-medium;
 
-  &--options {
-    display: flex;
-    flex-direction: column;
-    margin: $s-small 0;
+	&--container {
+		display: flex;
+		flex-direction: column;
 
-    label {
-      display:inline-block;
-      margin-bottom: $s-medium;
-    }
+		input[type=radio] {
+			position: absolute;
+			left: 0;
+			top: 0;
+			margin: 0;
+			padding: 0;
+			opacity: 0;
+		}
 
-    input {
-      margin-right: $s-medium;
-    }
+		label {
+			padding-left: $s-medium-large;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+		}
 
-    button {
-      margin-top: $s-medium;
-    }
-  }
+		label::before, label::after {
+			content: '';
+			display: block;
+			width: $s-medium;
+			height: $s-medium;
+			position: absolute;
+			top: 50%;
+			-webkit-transform: translateY(-50%);
+			-moz-transform: translateY(-50%);
+			-ms-transform: translateY(-50%);
+			-o-transform: translateY(-50%);
+			transform: translateY(-50%);
+		}
 
-  &--delete {
-    display: flex;
-    flex-direction: column;
-    margin: $s-small 0;
-  }
+		label::before {
+			left: 0;
+			border: $s-hair solid $c-border-input-light;
+			box-shadow: inset $s-hair $s-hair rgba(0, 0, 0, 0.03);
+			border-radius: 50%;
+		}
+
+		label::after {
+			left: 3px;
+			background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="none" stroke="#5D8CE7" stroke-width="3" stroke-miterlimit="10" d="M2 6l4 4 8-8"/></svg>') no-repeat center center;
+			display: none;
+		}
+
+		input[type=radio]:checked + label::after {
+			display: block;
+		}
+
+		input[type=text], &--item {
+			margin: $s-medium;
+		}
+
+		&--item {
+			position: relative;
+			display: inline-block;
+		}
+
+		button {
+			margin-top: $s-medium;
+		}
+	}
+
+	&--delete {
+		display: flex;
+		flex-direction: column;
+		margin: $s-small 0;
+	}
 }
