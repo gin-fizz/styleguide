@@ -6,25 +6,45 @@ layout: component
 Once a poll is created, you can vote on it like this:
 
 ```html
-<div class="poll--vote">
-  <label for="optionXX">Some option :)</label>
-  <input type="checkbox" name="optionXX" id="optionXX">
-</div>
+<div class="vote--container">
+  
+  <div class="vote--container--item">
+    <input type="radio" name="option" id="option1" value="option1">
+    <label for="option1">Groen</label>
+  </div>
+  
+  <div class="vote--container--item">
+    <input type="radio" name="option" id="option2" value="option2">
+    <label for="option2">Blauw</label>
+  </div>
 
-<div class="poll--vote">
-  <label for="optionXX">Some option :)</label>
-  <input type="radio" name="optionXX" id="optionXX">
+  <div class="vote--container--item">
+    <input type="radio" name="option" id="option3" value="option3">
+    <label for="option3">Oranje</label>
+  </div>
+
 </div>
 ```
 
 ## Rendered
 
-<div class="poll--vote">
-  <label for="optionXX">Some option :)</label>
-  <input type="checkbox" name="optionXX" id="optionXX">
+
+<div class="vote--container">
+  
+  <div class="vote--container--item">
+    <input type="radio" name="option" id="option1" value="option1">
+    <label for="option1">Groen</label>
+  </div>
+  
+  <div class="vote--container--item">
+    <input type="radio" name="option" id="option2" value="option2">
+    <label for="option2">Blauw</label>
+  </div>
+
+  <div class="vote--container--item">
+    <input type="radio" name="option" id="option3" value="option3">
+    <label for="option3">Oranje</label>
+  </div>
+
 </div>
 
-<div class="poll--vote">
-  <label for="optionXX">Some option :)</label>
-  <input type="radio" name="optionXX" id="optionXX">
-</div>

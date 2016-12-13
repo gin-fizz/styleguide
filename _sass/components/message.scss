@@ -1,26 +1,26 @@
 .error {
-  font-size: .8em;
-  margin-top: $s-small;
-  color: $c-error-dark;
+	font-size: .8em;
+	margin-top: $s-small;
+	color: $c-error-dark;
 }
 
 .message {
-  padding: $s-medium;
-  margin: $s-small;
-  border: $s-hair solid transparent;
-  border-radius: $s-small;
+	padding: $s-medium;
+	margin: $s-small;
+	border: $s-hair solid transparent;
+	border-radius: $s-small;
 
-  &.error {
-    font-size: inherit;
-    margin: $s-small;
-    color: $c-error-dark;
-    background-color: $c-error;
-    border-color: $c-error-dark;
-  }
+	&.error {
+		font-size: inherit;
+		margin: $s-small;
+		color: $c-error-dark;
+		background-color: $c-error;
+		border-color: $c-error-dark;
+	}
 
-  &.success {
-    color: $c-accent-dark;
-    background-color: $c-accent-light;
-    border-color: $c-accent-dark;
-  }
+	&.success {
+		color: $c-accent-dark;
+		background-color: $c-accent-light;
+		border-color: $c-accent-dark;
+	}
 }
