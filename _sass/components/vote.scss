@@ -47,7 +47,7 @@
 
 		label::after {
 			left: 3px;
-			background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9487/icon-check.svg") no-repeat center center;
+			background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="none" stroke="#5D8CE7" stroke-width="3" stroke-miterlimit="10" d="M2 6l4 4 8-8"/></svg>') no-repeat center center;
 			display: none;
 		}
 
