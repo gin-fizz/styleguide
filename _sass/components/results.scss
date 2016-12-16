@@ -1,0 +1,53 @@
+#results {
+	display: flex;
+	flex-wrap: wrap;
+
+	.arc text {
+		font-size: .8em;
+		text-anchor: middle;
+		color: $c-background;
+	}
+
+	.arc path {
+		stroke: white;
+		fill: $c-accent;
+	}
+
+	svg {
+		max-width: 100vw;
+		flex: 1 1 20em;
+	}
+
+	.toolTip {
+		font-family: inherit;
+		position: absolute;
+		display: none;
+		width: auto;
+		height: auto;
+		background: none repeat scroll 0 0 $c-background:;
+		border: 0 none;
+		border-radius: $s-small;
+		box-shadow: -$s-mini $s-mini 15px #888;
+		color: black;
+		padding: 5px;
+		text-align: center;
+	}
+
+	text {
+		color: $c-background;
+	}
+
+	.axisHorizontal path{
+		fill: none;
+	}
+
+	.axisHorizontal .tick line {
+		stroke-width: 1;
+		stroke: rgba(0, 0, 0, 0.2);
+	}
+
+	.bar {
+		fill: $c-accent;
+		fill-opacity: .9;
+	}
+}
