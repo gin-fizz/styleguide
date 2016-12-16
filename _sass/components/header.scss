@@ -5,7 +5,7 @@ header {
 	align-items: center;
 	background-color: $c-header;
 	padding: $s-medium;
-	margin: $s-medium;
+	margin-bottom: $s-medium;
 	box-shadow: 0 -$s-medium $s-medium $s-medium #b1b1b1;
 
 	@media (max-width: 560px) {
