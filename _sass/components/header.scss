@@ -3,10 +3,18 @@ header {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	padding: 1em;
 	background-color: $c-header;
-	margin-bottom: 1em;
-	box-shadow: 0em -1em 1em 1em #b1b1b1;
+	padding: $s-medium;
+	margin: $s-medium;
+	box-shadow: 0 -$s-medium $s-medium $s-medium #b1b1b1;
+
+	@media (max-width: 560px) {
+		flex-direction: column;
+
+		.user {
+			margin-top: $s-medium;
+		}
+	}
 
 	img {
 		height: 3em;
