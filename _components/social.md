@@ -24,7 +24,7 @@ A component for sharing the current page (requires js).
   <a href="https://twitter.com/intent/tweet?text=test+en+zo+poll%0A%0Avia+Pollistics+%E2%80%94+https%3A%2F%2Fpollistics.com%2F😏😏😏" target="_blank" rel="noopener" class="cta">share on twitter</a>
   </div>
   <div class="social--item" id="social">
-    <input disabled value="https://pollistics.com/😏😏😏">
+    <div class="social--url">https://pollistics.com/😏😏😏</div>
     <button class="social--copy">🔗</button>
   </div>
 </div>
