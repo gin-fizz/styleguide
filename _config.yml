@@ -4,3 +4,5 @@ collections:
     permalink: /:path/
 sass:
   style: compressed
+gems:
+- jekyll-autoprefixer
