@@ -6,6 +6,7 @@ button, input[type=submit] {
 	color: $c-header;
 	padding: $s-small $s-medium;
 	transition: background-color .2s;
+	appearance: none; // iOS bug
 
 	&:active {
 		background-color: $c-accent-light;

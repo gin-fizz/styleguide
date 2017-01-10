@@ -29,6 +29,12 @@ a {
 	}
 }
 
+// iOS bug
+input {
+	appearance: none;
+	background-color: white;
+}
+
 code {
 	font-family: $f-monospace;
 }
